@@ -8,11 +8,9 @@ def sum_array(lst):
 def sum_positive(lst):
     pass
 
-
 # Exercise 3
 def more_odds(lst):
     pass
-
 
 # Exercise 4
 def find_max(lst):
