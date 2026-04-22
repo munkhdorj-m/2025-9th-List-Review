@@ -14,7 +14,7 @@ def uses_loop(func):
     ([1, 2, 3], 6),
     ([0, 0, 0], 0),
 ])
-def test_sum_array(lst, expected):
+def test1(lst, expected):
     assert sum_array(lst) == expected
     assert uses_loop(sum_array)
 
@@ -25,7 +25,7 @@ def test_sum_array(lst, expected):
     ([-1, -2, -3], 0),
     ([1, 2, 3], 6),
 ])
-def test_sum_positive(lst, expected):
+def test2(lst, expected):
     assert sum_positive(lst) == expected
     assert uses_loop(sum_positive)
 
@@ -36,7 +36,7 @@ def test_sum_positive(lst, expected):
     ([2, 4, 6], "NO"),
     ([1, 3, 5], "YES"),
 ])
-def test_more_odds(lst, expected):
+def test3(lst, expected):
     assert more_odds(lst) == expected
     assert uses_loop(more_odds)
 
@@ -47,7 +47,7 @@ def test_more_odds(lst, expected):
     ([1], 1),
     ([-5, -2, -10], -2),
 ])
-def test_find_max(lst, expected):
+def test4(lst, expected):
     assert find_max(lst) == expected
     assert uses_loop(find_max)
 
@@ -58,6 +58,6 @@ def test_find_max(lst, expected):
     ([1, 2, 3], 4, 0),
     ([7, 7, 7], 7, 3),
 ])
-def test_count_target(lst, target, expected):
+def test5(lst, target, expected):
     assert count_target(lst, target) == expected
     assert uses_loop(count_target)
