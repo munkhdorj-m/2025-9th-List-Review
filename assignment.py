@@ -7,7 +7,6 @@ def sum_array(lst):
         total += num
     return total
 
-
 # Exercise 2
 def sum_positive(lst):
     total = 0
