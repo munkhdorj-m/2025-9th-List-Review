@@ -1,4 +1,4 @@
-# Python List
+# Python List Review
 
 Python List PDF:
 https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=sharing
@@ -6,59 +6,67 @@ https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=shari
 
 ---
 
-## Exercise 1
+## Exercise 1 — Sum of Array
 
 **Problem:**
 
-Find average of list elements.
+Write a function that returns the sum of all elements in a list.
 
 **Example:**
 
- 	Input: [4,2,5,2]
-  	Output: 3.25
-      
- 	Input: [5,5,5,5,5]
-  	Output: 5.0
-
- 	Input: [9,1,23,2,3]
-  	Output: 7.6
+	Input: [12, 13, 14, 15]  
+	Output: 54  
 
 ---
 
-## Exercise 2
+## Exercise 2 — Sum of Positive Numbers
 
 **Problem:**
 
-Find multiply of list elements.
+Write a function that returns the sum of elements greater than 0.
 
-**Example**
+**Example:**
 
-	Input: [1,2,3,4,5]
- 	Output: 120
-
- 	Input: [2,9,5,6]
- 	Output: 540
-  
-   	Input: [1,1,1,1,1]
- 	Output: 1
+	Input: [5, -3, 4, -10]  
+	Output: 9  
 
 ---
 
-## Exercise 3
+## Exercise 3 — More Odd or Even
 
 **Problem:**
 
-Find smallest element in a list.
+Return "YES" if the number of odd numbers is greater than even numbers, otherwise return "NO".
 
-**Example**
+**Example:**
 
-	Input: [9,12,3,5,0]
- 	Output: 0
+	Input: [2, 3, 4, 1, 7]  
+	Output: YES  
 
- 	Input: [-99,-12,-42,-55]
- 	Output: -99
-  
-   	Input: [5,5,5,5]
- 	Output: 5
+---
+
+## Exercise 4 — Maximum Element
+
+**Problem:**
+
+Return the largest number in the list.
+
+**Example:**
+
+	Input: [3, -2, 4, 7, -6]  
+	Output: 7  
+
+---
+
+## Exercise 5 — Count Target
+
+**Problem:**
+
+Return how many times a given number appears in the list.
+
+**Example:**
+
+	Input: [1, 5, 4, 5, 3, 9], target=5  
+	Output: 2  
 
 ---
